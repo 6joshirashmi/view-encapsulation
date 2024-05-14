@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-shadowdomcompo',
   standalone: true,
   imports: [],
   templateUrl: './shadowdomcompo.component.html',
-  styleUrl: './shadowdomcompo.component.css'
+  styleUrl: './shadowdomcompo.component.css',
+ 
 })
 export class ShadowdomcompoComponent {
 
